@@ -1,5 +1,5 @@
-import addTwo from 'addTwo';
+import sharedHelper from 'sharedHelper';
 
 export default function Page() {
-  return addTwo() + 3;
+  return sharedHelper() + 3;
 }

@@ -1,3 +1,3 @@
-export default function Button() {
+export default function sharedHelper() {
   return 2;
 }

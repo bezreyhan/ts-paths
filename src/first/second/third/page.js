@@ -1,7 +1,7 @@
 "use strict";
-const addTwo_1 = require('addTwo');
+const sharedHelper_1 = require('sharedHelper');
 function Page() {
-    return addTwo_1.default() + 3;
+    return sharedHelper_1.default() + 3;
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = Page;

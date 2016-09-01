@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react"
+  },
+  "paths": {
+    "*": [
+      "./shared/*",
+      "../shared/*",
+      "../../shared/*",
+      "../../../shared/*",
+      "../../../../shared/*",
+      "../../../../../shared/*",
+      "../../../../../../shared/*"
+    ]
+  },
+  "include": [
+    "./src/first/second/third/page.ts"
+  ]
+}

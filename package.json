@@ -1,0 +1,14 @@
+{
+  "name": "ts-paths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bez Reyhan",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.1.0-dev.20160901"
+  }
+}
